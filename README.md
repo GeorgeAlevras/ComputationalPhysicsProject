@@ -48,7 +48,7 @@ testing.py
 
 E.g.
 - Test methods for edge cases, singularities, 0 relative accuracies, etc.:
-	'python testing.py -t 0'
+	`python testing.py -t 0`
 - Test methods do not accept unreasonable values of relative accury:
 	`python testing.py -t 1`
 --------------------------------------------------------------------------------------------------------
