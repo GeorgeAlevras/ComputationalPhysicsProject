@@ -10,7 +10,7 @@ The repository contains:
 - A script that produces all the plots and figures used and shown in the report `./plots_and_results.py`
 - A file containing all the functions used in the project `./functions.py`
 - A file attempting to do adaptive sampling for MC integration through the metropolis algorithm `./metropolis.py`
-- A folder containing all the plots produced and shown in the report `./plots`
+- A directory containing all the plots produced and shown in the report `./plots`
 
 --------------------------------------------------------------------------------------------------------
 
