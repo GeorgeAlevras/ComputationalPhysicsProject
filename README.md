@@ -1,20 +1,16 @@
 # Computational Physics Coursework - 3D Quantum Systems Integrator #
 
-Author: George Alevras \
-Date: 20/12/2020
-
-## Description ##
 This was my coursework representing 60% of the course 'Computational Physics' - obtaining a grade of 84.4%. The project involved developing numerical methods of integration through Newton-Coates and Monte Carlo integration to solve 1D and 3D quantum systems that cannot be solved analytically. The speed of convergence for the different methods were compared, as well as the scaling of errors with the number of samples for 1D and 3D systems for the different methods.
 
 ## Organisation ##
 The repository contains:
-- The report submitted for the coursework `./Alevras-Georgios-CP2020-Project2-Report.pdf`
+- The report submitted for the coursework `./alevras_georgios_project_report.pdf`
 - The file with the main source code that runs integrator methods `./main.py`
 - A script that performs all test validations (unit testing, edge-case testing, type and value errors) `./testing.py`
 - A script that produces all the plots and figures used and shown in the report `./plots_and_results.py`
 - A file containing all the functions used in the project `./functions.py`
 - A file attempting to do adaptive sampling for MC integration through the metropolis algorithm `./metropolis.py`
-- A folder containing all the plots produced and shown in the report `./Plots`
+- A folder containing all the plots produced and shown in the report `./plots`
 
 --------------------------------------------------------------------------------------------------------
 
@@ -75,5 +71,3 @@ metropolis.py
 - Run the metropolis algorithm with adaptive sampling
 - No arguments needed, just run the file as such:
 	`python metropolis.py`
-
-*Enjoy the code!*
